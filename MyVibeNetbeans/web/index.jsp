@@ -14,44 +14,30 @@
     </head>
     <body>
         <div class="site-wrapper">
-            <div class="site-wrapper-inner">
-                
-                <div class="cover-container">
-                    
+            <div class="site-wrapper-inner">               
+                <div class="cover-container">                    
                     <div class="inner cover">
                         <img class="img" src="afbeeldingen/myvibe-logo.png" height="300px">
                         <h1 class="cover-heading">Welkom bij MyVibe!</h1>
                         <p class="lead">Log in, of creer een account om ten volle van MyVibe te genieten.</p>
-                        <p class="lead">
-                        </p>
+                        <p class="lead"></p>
                     </div>
                     <div class="forms">
-                        <div class="login">
-                            
-                            <a href="login.jsp"> <h1>Login </h1></a>
-                            
+                        <div class="login">                            
+                            <a href="login.jsp"> <h1>Login </h1></a>                            
                         </div>
-                        <div class="registreer">
-                           
-                                <a href="registreer.jsp"> <h1>Registreer </h1></a>
-                                
-                                
-                                </div>
-                                </div>   
-                                <div class="mastfoot">
-                                    
-                                </div>
-
+                        <div class="registreer">                           
+                            <a href="registreer.jsp"> <h1>Registreer </h1></a>                                                               
                         </div>
-
-                    </div>
-
+                    </div>                                   
                 </div>
+            </div>
+        </div>
 
-                
-        
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-                <script src="js/bootstrap/bootstrap.min.js"></script>
-                <script src="js/bootstrap/docs.min.js"></script>
-                </body>
-                </html>
+
+        <!-- javascripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <script src="js/bootstrap/docs.min.js"></script>
+    </body>
+</html>

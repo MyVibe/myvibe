@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
-    <title>Signin Template for Bootstrap</title> 
+    <title>Login -MyVibe</title> 
     <link href="CSS/bootstrap/bootstrap.min.css" rel="stylesheet">    
     <link href="CSS/signin.css" rel="stylesheet">
    
@@ -23,10 +23,6 @@
         </label>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
       </form>
-
-    </div> <!-- /container -->
-
-
-    
+    </div> 
   </body>
 </html>

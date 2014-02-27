@@ -6,7 +6,9 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
-
+#logo{
+    height:150px;
+}
 
 
 /* CUSTOMIZE THE NAVBAR
