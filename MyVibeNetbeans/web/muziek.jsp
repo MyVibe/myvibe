@@ -19,6 +19,8 @@
     <!-- NAVBAR
     ================================================== -->
     <body>
+         <div class="carousel-inner">
+             
         <div class="navbar-wrapper">
             <div class="container">
 
@@ -57,7 +59,8 @@
 
             </div>
         </div>
-
+         </div>
+         
 
 
         <!-- Marketing messaging and featurettes
@@ -70,13 +73,36 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="list-group">
-                        <a href="#" class="list-group-item active">
-                            Cras justo odio
-                        </a>
-                        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item">Morbi leo risus</a>
-                        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item">Vestibulum at eros</a>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Populariteit</h3>
+                            </div>                          
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Genre</h3>
+                            </div>
+                            <div class="panel-body">
+                                <a href="#" > Rock </a></br>
+                                 <a href="#" > House </a>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Recentste</h3>
+                            </div>                          
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Artiest</h3>
+                            </div>
+                            <div class="panel-body">
+                                 <a href="#" > Op naam: oplopend </a>
+                            </div>
+                        </div>
+
+                        
+
                     </div>
                 </div><!-- /.col-sm-4 -->
                 <div class="col-lg-4">
@@ -99,16 +125,17 @@
                 <div class="col-lg-4">
                     <img class="img-circle" data-src="js/holder.js/140x140" alt="Generic placeholder image">
                     <h2>Heading</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="img-circle" data-src="js/holder.js/140x140" alt="Generic placeholder image">
                     <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
+        
 
             <!-- START THE FEATURETTES -->
 

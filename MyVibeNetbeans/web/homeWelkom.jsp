@@ -44,14 +44,8 @@
                                         <li><a href="#">One more separated link</a></li>
                                     </ul>
                                 </li>
-
-                                <li class="lognav">
-                                    <form class="navbar-search pull-right">
-                                        <input type="text" class="span2" placeholder="Login">
-                                        <input type="text" class="span2" placeholder="Password">
-                                        <input type="submit" value="Login" class="btn2"/>
-                                        <button class="btn2"> Registreer </button>
-                                    </form>
+                                <li class="welkom">
+                                    <p> Welkom! </p>
                                 </li>
 
 
