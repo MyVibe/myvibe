@@ -32,13 +32,24 @@ public class LoginDao {
     }
 
     public UserBean getUser(String username) throws SQLException {
-        String query = "select gebruikersnaam, wachtwoord from gebruiker where gebruikersnaam='" + username + "';";
+        String query = "select * from gebruiker where gebruikersnaam='" + username + "';";
         try (Connection con = getConnection(); PreparedStatement stmt = con.prepareStatement(query)) {
             ResultSet rs = stmt.executeQuery();
             rs.next();
             UserBean user = new UserBean();
-            user.setUsername(rs.getString(1));
-            user.setPassword(rs.getString(2));
+            user.setIdGebruiker(rs.getInt(1));
+            user.setIdGebruikertype(rs.getInt(2));
+            user.setGebruikersnaam(rs.getString(3));
+            user.setWachtwoord(rs.getString(4));
+            user.setEmail(rs.getString(5));
+            user.setVoornaam(rs.getString(6));
+            user.setAchternaam(rs.getString(7));
+            user.setStraat(rs.getString(8));
+            user.setHuisnummer(rs.getString(9));
+            user.setGemeente(rs.getString(10));
+            user.setPostcode(rs.getString(11));
+            user.setGeboortedatum(rs.getDate(12));
+            user.setGeslacht(rs.getString(13));
             return user;
         }
     }

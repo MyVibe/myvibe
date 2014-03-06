@@ -46,11 +46,13 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
         try {
-            String username = req.getParameter("username");
-            String password = req.getParameter("password");
+            String username = req.getParameter("gebruikersnaam");
+            String password = req.getParameter("wachtwoord");
             UserBean user = dao.getUser(username);
-            if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
-                res.sendRedirect("homeWelkom.jsp");
+            if (user.getGebruikersnaam().equals(username) && user.getWachtwoord().equals(password)) {
+                req.getSession().setAttribute("user", user);
+                req.getSession().setAttribute("loggedIn", "True");
+                res.sendRedirect("home.jsp");
             } else {
                 req.getSession().setAttribute("msg", "Incorrect. Please try again.");
                 ServletContext context = getServletContext();
