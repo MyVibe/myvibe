@@ -46,9 +46,9 @@
                                 </li>
 
                                 <li class="lognav">
-                                    <form class="navbar-search pull-right">
-                                        <input type="text" class="span2" placeholder="Login">
-                                        <input type="text" class="span2" placeholder="Password">
+                                    <form class="navbar-search pull-right" action="LoginServlet" method="POST">
+                                        <input name="username" type="text" class="span2" placeholder="Login">
+                                        <input name="password" type="text" class="span2" placeholder="Password">
                                         <input type="submit" value="Login" class="btn2"/>
                                         <button class="btn2"> Registreer </button>
                                     </form>
