@@ -48,6 +48,11 @@
                                 <li class="welkom">
                                     Welkom, ${user.gebruikersnaam}
                                 </li>
+                                <li>
+                                    <form class="navbar-search pull-right" action="LogoutServlet">
+                                        <input type="submit" value="Afmelden" class="btn2"/>
+                                    </form>
+                                </li>
                                 </c:if>
 
 
