@@ -38,18 +38,7 @@
                                 <li ><a href="home.jsp">Home</a></li>
                                 <li><a href="muziek.jsp">zoek muziek</a></li>
                                 <li class="active"><a href="account.jsp">Mijn account</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">Nav header</li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li><a href="#">One more separated link</a></li>
-                                    </ul>
-                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -73,18 +62,43 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="list-group">
-                        <a href="#" class="list-group-item active">
-                            Cras justo odio
-                        </a>
-                        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item">Morbi leo risus</a>
-                        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item">Vestibulum at eros</a>
+                        <div class="panel panel-default active">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Mijn gegevens</h3>
+                            </div>                          
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Mijn muziek</h3>
+                            </div>
+                            <div class="panel-body">
+                                <a href="#" > Wenslijst </a></br>
+                                 <a href="#" > Favorieten </a>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Recentste</h3>
+                            </div>                          
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Artiest</h3>
+                            </div>
+                            <div class="panel-body">
+                                 <a href="#" > Op naam: oplopend </a>
+                            </div>
+                        </div>
+
+                        
+
                     </div>
                 </div><!-- /.col-sm-4 -->
                 <div class="col-lg-4">          
                     <h2>Mijn gegevens</h2>
+                    
                     <table class="gegevens">
+                        
                         <tr><td> Gebruikersnaam: </td> </tr>
                         <tr><td> Wachtwoord: </td> </tr>
                         <tr><td> Voornaam: </td> </tr>
@@ -94,6 +108,7 @@
                         <tr><td> Huisnummer: </td> </tr>
                         <tr><td> Postcode: </td> </tr>
                         <tr><td> Gemeente: </td></tr>
+                        <button class="btn2"> Gegevens aanpassen </button>
                     </table>
 
                 </div><!-- /.col-lg-4 -->

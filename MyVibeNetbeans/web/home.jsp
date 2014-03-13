@@ -25,45 +25,25 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>              
-
+<a class="navbar-brand" href="#">MyVibe</a>
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="#">Home</a></li>
                                 <li><a href="muziek.jsp">Zoek muziek</a></li>
                                 <li><a href="account.jsp">Mijn account</a></li>                
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">Nav header</li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li><a href="#">One more separated link</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="lognav">
-                                    <form class="navbar-search pull-right">
+                                
+                            </ul>                             
+                                    <form class="navbar-form form-inline pull-right" >
                                         <input type="text" class="span2" placeholder="Login">
                                         <input type="text" class="span2" placeholder="Password">
                                         <input type="submit" value="Login" class="btn2"/>
                                         <button class="btn2"> Registreer </button>
-                                    </form>
-                                </li>
-
-
-
-                            </ul>
-
+                                          
+                                    </form>                                                      
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </div>
 
@@ -122,20 +102,20 @@
                 <div class="col-lg-4">
                     <img class="img-circle" src="afbeeldingen/daft-punk.png" height="140px" alt="Generic placeholder image">
                     <h2>Daft punk</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                    <p> Nieuw bij MyVibe: Daft Punk. Het franse duo maakte onlangs zijn comeback, waar u hier ten volle van kan genieten!</p>
+                    <p><a class="btn btn-default" href="#" role="button">Ontdek Daft Punk &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="img-circle" data-src="js/holder.js/140x140" alt="Generic placeholder image">
-                    <h2>Heading</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                    <img class="img-circle" src="afbeeldingen/rihanna.jpg" height="140px" alt="Generic placeholder image">
+                    <h2>Rihanna</h2>
+                    <p>Deze zwoele zangeres van Barbados is al jaren niet weg te slaan uit de hitlijsten. MyVibe maakte speciaal een selectie uit haar klassiekers</p>
+                    <p><a class="btn btn-default" href="#" role="button">Ontdek Rihanna &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="img-circle" data-src="js/holder.js/140x140" alt="Generic placeholder image">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                    <img class="img-circle" src="afbeeldingen/justin.jpg" height="140px"  alt="Generic placeholder image">
+                    <h2>Justin Bieber</h2>
+                    <p>Deze Canadese badboy heeft Amerika al lang veroverd. Zijn opmars in België begint bij MyVibe!</p></br>
+                    <p><a class="btn btn-default" href="#" role="button">Ontdek Justin Bieber &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
 
@@ -146,11 +126,11 @@
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">In de spotlights: Shakira. <span class="text-muted">Colombiaanse furie.</span></h2>
+                    <p class="lead">Wie Colombia zegt, zegt Shakira.Deze passionele zangeres rijgt al jaren de nummer 1 hits aan elkaar. Bij MyVibe ziet u meteen waarom. </p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="afbeeldingen/nirvana.jpg" height="500px" width="500px" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive" src="afbeeldingen/shakira.jpg" height="500px" width="500px" alt="Generic placeholder image">
                 </div>
             </div>
 
@@ -158,11 +138,11 @@
 
             <div class="row featurette">
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" data-src="js/holder.js/500x500/auto" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive" src="afbeeldingen/legend.jpg" height="500px" width="500px" alt="Generic placeholder image">
                 </div>
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">De ontdekking van 2013! <span class="text-muted">Exclusief op MyVibe!</span></h2>
+                    <p class="lead">Met zijn hit 'All of me' scoorde hij dé soulhit van 2013. Deze polyvalente, getalenteerde artiest kan echter meer dan dat. Zijn allernieuwste nummers staan nu op MyVibe!</p>
                 </div>
             </div>
 
@@ -170,11 +150,11 @@
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Eigen kweek. <span class="text-muted">Formidable!</span></h2>
+                    <p class="lead">Deze week in eigen kweek: Stromae! Deze sympathieke Brusselaar heeft Vlaanderen al lang veroverd. De populairste en nieuwste hits van de nieuwe Jacques Brel vindt u hier.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" data-src="js/holder.js/500x500/auto" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive" src="afbeeldingen/stromae.png" height="500px" width="500px"  alt="Generic placeholder image">
                 </div>
             </div>
 

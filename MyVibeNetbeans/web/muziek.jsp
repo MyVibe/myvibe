@@ -40,18 +40,7 @@
                                 <li ><a href="home.jsp">Home</a></li>
                                 <li class="active"><a href="muziek.jsp">zoek muziek</a></li>
                                 <li><a href="account.jsp">Mijn account</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">Nav header</li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li><a href="#">One more separated link</a></li>
-                                    </ul>
-                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -106,10 +95,10 @@
                     </div>
                 </div><!-- /.col-sm-4 -->
                 <div class="col-lg-4">
-                    <img class="img-circle" data-src="js/holder.js/140x140" alt="Generic placeholder image">
-                    <h2>Heading</h2>
+                    <img class="img-circle"  src="afbeeldingen/daft-punk.png" href="liedje.jsp" width="140px" height="140px"alt="Generic placeholder image">
+                    <h2>Titel</h2>
 
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                    <p><a class="btn btn-default"  role="button" href="liedje.jsp">Bekijk detail &raquo;</a> </p> <img src="afbeeldingen/leeg_hart.png" width="30px"height="30px" /><img src="afbeeldingen/witte_ster.jpg" width="30px"height="30px" /><img src="afbeeldingen/winkelkar.png" width="30px"height="30px" />
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="img-circle" data-src="js/holder.js/140x140" alt="Generic placeholder image">

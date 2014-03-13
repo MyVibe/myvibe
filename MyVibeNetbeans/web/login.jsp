@@ -24,5 +24,11 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
       </form>
     </div> 
+      <audio controls>
+  
+  <source src="muziek/Puppy.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+      <a href="muziek/Puppy.mp3" download="Puppy.mp3">Download Your Expense Report</a>
   </body>
 </html>
